@@ -1,0 +1,21 @@
+Package: QuickPower
+Title: Quick and Easy Power Calculations
+Version: 0.0.0.9000
+Authors@R: person("Isaac", "Ahuvia", email = "ahuvia@uchicago.edu", role = c("aut", "cre"))
+Description: This package is designed to produce power calculations quickly
+    and easily, even for users not otherwise familiar with the statistics behind
+    power analysis. Unlike other power analysis packages, this package translates
+    statistical effect sizes into practical terms, allowing the user to conduct
+    analyses without additional commands or calculations. This package is designed to quickly
+    answer the questions of: "How many study participants would be needed to see a
+    statistically significant effect of this size?" and "How large of an effect size
+    would be needed to be see a statistically significant result given this number
+    of study participants?" For more complex power analysis tasks, other packages
+    and techniques should be used. This package uses the separate package "pwr" to
+    conduct the core calculations.
+Depends:
+    R (>= 3.3.0)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1.9000
