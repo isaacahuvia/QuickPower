@@ -1,0 +1,2 @@
+# QuickPower
+QuickPower package (R)
